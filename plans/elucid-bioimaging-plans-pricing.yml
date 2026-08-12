@@ -1,0 +1,26 @@
+generated: '2026-08-12'
+method: searched
+source: https://elucid.com/
+plan_count: 0
+currency: null
+note: >-
+  Elucid publishes no pricing page and no plans of any kind. /pricing/ returns 404 and no
+  pricing, plan, tier or quota language appears anywhere on elucid.com. Plaque-IQ is sold
+  to health systems and imaging practices through a clinical sales motion ("Request a
+  demo", info@elucid.com, +1 617-676-1776), and the published commercial story is
+  REIMBURSEMENT rather than list price: the site documents Medicare Administrative
+  Contractor coverage, United Healthcare coverage effective 2025-10-01, EviCore coverage
+  guidelines, CPT/CMS fee-schedule inclusion, and a state-by-state coverage lookup. That
+  coverage material is payer-facing, not a developer or customer price list, so it is
+  recorded here as context and not as plans[]. plan_count: 0 is a verified zero, not an
+  unchecked field. No Pricing pointer is wired in apis.yml because no pricing page exists.
+plans: []
+evidence:
+- url: https://elucid.com/pricing/
+  status: 404
+- url: https://elucid.com/coverage-providers/
+  status: 200
+  kind: payer-coverage
+- url: https://elucid.com/contact/
+  status: 200
+  kind: request-a-demo

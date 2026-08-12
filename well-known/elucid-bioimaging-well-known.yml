@@ -1,0 +1,112 @@
+generated: '2026-08-12'
+method: probed
+source: https://elucid.com/
+host: https://elucid.com
+note: >-
+  Every /.well-known/ discovery path probed on elucid.com returned 404. No security.txt,
+  no OIDC/OAuth discovery, no api-catalog, no ai-plugin, no A2A agent card. Recorded as a
+  verified absence — no WellKnown, SecurityTxt or AgentCard pointer is wired in apis.yml,
+  because none of these documents is served. elucid.com is the only host in scope: no
+  api./app./docs./developer./portal./status./trust. subdomain resolves in DNS.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/oauth-protected-resource
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /.well-known/agent-card.json
+  status: 404
+- path: /.well-known/agent.json
+  status: 404
+- path: /.well-known/ai.txt
+  status: 404
+served:
+- path: /llms.txt
+  status: 200
+  content_type: text/plain
+  file: ../llms/elucid-bioimaging-llms.txt
+  note: >-
+    A real, provider-served llms.txt (Rank Math / WordPress generated). Site pages and
+    news posts only — it names no API, endpoint, key or specification.
+- path: /robots.txt
+  status: 200
+- path: /sitemap.xml
+  status: 200
+contract_discovery:
+  note: >-
+    STEP 0b contract discovery. No product API exists. The only machine-readable surface
+    on elucid.com is the WordPress core REST API that ships with the marketing site — it is
+    CMS infrastructure, not an Elucid product API, is not documented or marketed by Elucid,
+    and is therefore deliberately NOT registered as an apis[] entry and carries no OpenAPI,
+    MCPServer or Documentation pointer. Recorded here because it was observed.
+  probes:
+  - url: https://elucid.com/openapi.json
+    status: 404
+  - url: https://elucid.com/openapi.yaml
+    status: 404
+  - url: https://elucid.com/swagger.json
+    status: 404
+  - url: https://elucid.com/api-docs
+    status: 404
+  - url: https://elucid.com/docs
+    status: 404
+  - url: https://elucid.com/api/
+    status: 404
+  - url: https://elucid.com/developers/
+    status: 404
+  - url: https://elucid.com/wp-json/
+    status: 200
+    kind: wordpress-rest-index
+    detail: >-
+      WordPress REST discovery index — 533 routes across 37 namespaces, all plugin/CMS
+      namespaces (wp/v2, elementor, rankmath, akismet, google-site-kit). Authentication is
+      WordPress application-passwords. Not an Elucid product API.
+  - url: https://elucid.com/wp-json/mcp/mcp-adapter-default-server
+    status: 401
+    kind: mcp-endpoint
+    method: POST tools/list
+    detail: >-
+      The WordPress MCP Adapter plugin exposes an MCP endpoint on the marketing site. It
+      answers 401 rest_forbidden to anonymous initialize and tools/list, so no tool schema
+      is observable, and it is a CMS-administration surface rather than a public agent
+      surface for Plaque-IQ. No MCPServer pointer is wired.
+  graphql: none-found
+  asyncapi: none-found
+  grpc: none-found
+  agent_card: none-found
+
+hosts_probed:
+- host: elucid.com
+  dns: resolves
+  https: 200
+- host: api.elucid.com
+  dns: NXDOMAIN
+- host: app.elucid.com
+  dns: NXDOMAIN
+- host: docs.elucid.com
+  dns: NXDOMAIN
+- host: developer.elucid.com
+  dns: NXDOMAIN
+- host: developers.elucid.com
+  dns: NXDOMAIN
+- host: portal.elucid.com
+  dns: NXDOMAIN
+- host: viewer.elucid.com
+  dns: NXDOMAIN
+- host: cloud.elucid.com
+  dns: NXDOMAIN
+- host: status.elucid.com
+  dns: NXDOMAIN
+- host: trust.elucid.com
+  dns: NXDOMAIN
+- host: elucidbio.com
+  dns: resolves
+  https: connection-failed
+  note: Legacy domain; A record resolves but no TLS/HTTP listener answers.

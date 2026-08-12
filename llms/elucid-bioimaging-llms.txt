@@ -1,0 +1,41 @@
+﻿# Elucid
+
+> Elucid develops Plaque-IQ, the first and only FDA-cleared CT-based plaque analysis platform indicated for both coronary and carotid anatomies. Using non-invasive CT scans, the histology-validated software from Elucid quantifies lesion-level plaque composition — including lipid-rich necrotic core — to help cardiologists, radiologists, and vascular specialists identify high-risk atherosclerotic disease and guide personalized, patient-specific treatment pathways.
+
+> The following pages provide detailed information about the clinical platform, technology, evidence base, and company background at Elucid.
+
+
+## Pages
+
+- [Coverage Providers](https://elucid.com/coverage-providers/)
+- [States](https://elucid.com/coverage-providers/states/)
+- [Careers](https://elucid.com/careers-at-elucid/)
+- [Contact](https://elucid.com/contact/)
+- [Clinical Evidence](https://elucid.com/clinical-evidence/)
+- [Company](https://elucid.com/about-elucid/)
+- [Patients](https://elucid.com/patients/)
+- [Healthcare Professionals](https://elucid.com/healthcare-professionals/)
+- [Home](https://elucid.com/)
+
+
+## Posts
+
+- [Elucid Announces First Patient Enrollment in AI-PREDICT, a Landmark International Study to Define Lesion-Level Cardiovascular Risk](https://elucid.com/elucid-first-patient-ai-predict/)
+- [Elucid to Showcase CCTA Vision at SCCT 2026, Defining the Future of Personalized Cardiovascular Care](https://elucid.com/elucid-scct-2026-vision/)
+- [Elucid’s Plaque-IQ™ Named “Best New Cardiology Technology Solution” in 2026 MedTech Breakthrough Awards Program](https://elucid.com/elucid-medtechbreakthrough-2026/)
+- [Elucid Announces Commercial Availability of Lesion Inspection Tool for Plaque-IQ™](https://elucid.com/elucid-lesion-inspection-tool/)
+- [Elucid Announces Broad Reimbursement for Quantitative Coronary Plaque Analysis](https://elucid.com/elucid-announces-broad-reimbursement-for-plaque-iq/)
+- [Elucid Gains Broad CMS Reimbursement of Coronary Plaque Analysis Using PlaqueIQ™](https://elucid.com/elucid-gains-broad-cms-reimbursement-of-coronary-plaque-analysis-using-plaqueiq/)
+- [Elucid Launches PlaqueIQ Image Analysis Software for the Carotid Arteries](https://elucid.com/elucid-launches-carotid-plaqueiq/)
+- [Elucid’s PlaqueIQ™ Image Analysis Software Now Covered by United Healthcare](https://elucid.com/united-healthcare-coverage/)
+- [Elucid Names Richard E. Kuntz, MD, MSc and Shamiram Feinglass, MD, MPH Board Directors](https://elucid.com/elucid-names-new-board-directors-jul-2025/)
+- [Elucid Applauds CMS Inclusion of Coronary CTA with Plaque Analysis in 2026 Proposed Medicare Physician Fee Schedule](https://elucid.com/elucid-applauds-cms-inclusion-of-coronary-cta-with-plaque-analysis-in-2026-proposed-medicare-physician-fee-schedule/)
+- [Elucid’s PlaqueIQ Image Analysis Software Included in EviCore Coverage Guidelines](https://elucid.com/elucids-plaqueiq-image-analysis-software-included-in-evicore-coverage-guidelines/)
+- [Elucid to Showcase PlaqueIQ at SCCT 2025](https://elucid.com/elucid-to-showcase-plaqueiq-at-scct-2025/)
+- [Elucid Appoints Dr. Robert Pelberg as New Senior Vice President of Medical Affairs](https://elucid.com/elucid-appoints-dr-robert-pelberg-as-new-senior-vice-president-of-medical-affairs/)
+- [Elucid Adds Clinical and Commercial Leadership Ahead of PlaqueIQ™ Launch](https://elucid.com/elucid-adds-clinical-and-commercial-leadership-ahead-of-plaqueiq-launch/)
+- [Elucid Announces CCTA Reimbursement to be Doubled with CMS Rule](https://elucid.com/elucid-announces-ccta-reimbursement-to-be-doubled/)
+- [Elucid Announces Fifth Medicare Administrative Contractor to Cover AI Coronary Plaque Analysis](https://elucid.com/elucid-announces-fifth-medicare-administrative-contractor-to-cover-ai-coronary-plaque-analysis/)
+
+> Elucid is headquartered at 399 Boylston Street, Suite 400, Boston, MA 02116. For inquiries or to request a demo, contact info@elucid.com or +1 617-676-1776. Elucid, Plaque-IQ, and CT Virtual Histology are trademarks of Elucid.
+

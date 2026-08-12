@@ -1,8 +1,21 @@
 aid: elucid-bioimaging
 name: Elucid Bioimaging
-description: 'Elucid Bioimaging is a company surfaced via the API Evangelist harvest backlog (source:
-  secondary-market) and added to the network as a stub for full-pipeline profiling.'
+description: 'Elucid Bioimaging, Inc. (operating as Elucid) is a Boston, Massachusetts
+  medical technology company building AI-based image analysis software for cardiovascular
+  disease. Its flagship product, Plaque-IQ, is an FDA-cleared CT-based plaque analysis
+  platform indicated for both coronary and carotid anatomies: it applies image-restoration
+  and segmentation algorithms to coronary CT angiography (CCTA) studies to quantify
+  and classify lesion-level plaque morphology — including lipid-rich necrotic core —
+  producing CAD-RADS classifications, straightened multi-planar reconstructions and a
+  physician-validated PDF report. Elucid also offers an FFR-CT capability. The company
+  sells to health systems, cardiologists, radiologists and vascular specialists through
+  a clinical sales motion, and its go-to-market runs on reimbursement (Medicare
+  Administrative Contractor, United Healthcare and EviCore coverage) rather than
+  self-service signup. Elucid publishes no public developer program, API reference,
+  SDK or machine-readable specification; the product is delivered as an end-user
+  clinical platform.'
 url: https://raw.githubusercontent.com/api-evangelist/elucid-bioimaging/refs/heads/main/apis.yml
+image: https://elucid.com/wp-content/uploads/2025/10/elucid-logo.svg
 x-type: company
 x-source: harvest:secondary-market
 x-tier: stub
@@ -12,6 +25,13 @@ created: '2026-08-12'
 modified: '2026-08-12'
 tags:
 - Company
+- Health
+- Medical Imaging
+- Artificial Intelligence
+- Cardiovascular
+- Radiology
+- Diagnostics
+- Medical Devices
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -20,4 +40,55 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
+  url: https://elucid.com/
+- type: Company
+  url: https://elucid.com/about-elucid/
+- type: Contact
+  url: https://elucid.com/contact/
+- type: Careers
+  url: https://elucid.com/careers-at-elucid/
+- type: Blog
+  url: https://elucid.com/about-elucid/#news
+- type: BlogRSS
+  url: https://elucid.com/feed/
+- type: PrivacyPolicy
+  url: https://elucid.com/privacy-policy/
+- type: CookiePolicy
+  url: https://elucid.com/cookie-policy/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/elucid-inc/
+- type: YouTube
+  url: https://www.youtube.com/@elucidbioimaging
+- type: Twitter
+  url: https://x.com/ElucidBio
+- type: LLMsTxt
+  url: llms/elucid-bioimaging-llms.txt
+- type: DomainSecurity
+  url: security/elucid-bioimaging-domain-security.yml
+- type: SecondaryMarket
   url: https://forgeglobal.com/elucid-bioimaging_stock/
+x-enrichment:
+  date: '2026-08-12'
+  status: minimal
+  artifacts_added: 4
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: >-
+    Elucid ships Plaque-IQ as an FDA-cleared end-user clinical imaging application sold to
+    health systems, and publishes no developer surface at all — elucid.com/api/,
+    /developers/, /docs and /openapi.json all 404, and no api./docs./developer./app.
+    subdomain even resolves in DNS.
+  evidence:
+  - url: https://elucid.com/developers/
+    status: 404
+  - url: https://elucid.com/api/
+    status: 404
+  - url: https://elucid.com/openapi.json
+    status: 404
+  - url: https://elucid.com/.well-known/agent-card.json
+    status: 404
+  - url: https://elucid.com/llms.txt
+    status: 200
+  checked: '2026-08-12'

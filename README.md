@@ -42,5 +42,8 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Elucid Bioimaging is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
+Elucid Bioimaging, Inc. (operating as Elucid) is a Boston, Massachusetts medical technology company building AI-based image analysis software for cardiovascular disease. Its flagship product, Plaque-IQ, is an FDA-cleared CT-based plaque analysis platform indicated for both coronary and carotid anatomies, quantifying and classifying lesion-level plaque morphology from coronary CT angiography studies. Elucid publishes no public developer program, API reference, SDK or machine-readable specification; the product is delivered as an end-user clinical platform.
+
+- https://elucid.com/
+- https://elucid.com/about-elucid/
 - https://forgeglobal.com/elucid-bioimaging_stock/
