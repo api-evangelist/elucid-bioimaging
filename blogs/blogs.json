@@ -1,0 +1,21 @@
+{
+  "repo": "elucid-bioimaging",
+  "feeds": [
+    {
+      "source": "https://elucid.com/careers-at-elucid/",
+      "feed_url": "https://elucid.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    },
+    {
+      "source": "https://elucid.com/about-elucid/#news",
+      "feed_url": "https://elucid.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-08-15T12:22:01Z"
+}
