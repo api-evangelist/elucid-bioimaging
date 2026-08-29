@@ -15,6 +15,17 @@ description: 'Elucid Bioimaging, Inc. (operating as Elucid) is a Boston, Massach
   SDK or machine-readable specification; the product is delivered as an end-user
   clinical platform.'
 url: https://raw.githubusercontent.com/api-evangelist/elucid-bioimaging/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 image: https://elucid.com/wp-content/uploads/2025/10/elucid-logo.svg
 x-type: company
 x-source: harvest:secondary-market
