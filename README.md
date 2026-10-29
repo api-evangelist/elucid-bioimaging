@@ -64,8 +64,87 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Elucid Bioimaging, Inc. (operating as Elucid) is a Boston, Massachusetts medical technology company building AI-based image analysis software for cardiovascular disease. Its flagship product, Plaque-IQ, is an FDA-cleared CT-based plaque analysis platform indicated for both coronary and carotid anatomies, quantifying and classifying lesion-level plaque morphology from coronary CT angiography studies. Elucid publishes no public developer program, API reference, SDK or machine-readable specification; the product is delivered as an end-user clinical platform.
+Elucid Bioimaging, Inc. (operating as Elucid) is a Boston, Massachusetts medical technology company building AI-based image analysis software for cardiovascular disease. Its flagship product, Plaque-IQ, is an FDA-cleared CT-based plaque analysis platform indicated for both coronary and carotid anatomies: it applies image-restoration and segmentation algorithms to coronary CT angiography (CCTA) studies to quantify and classify lesion-level plaque morphology — including lipid-rich necrotic core — producing CAD-RADS classifications, straightened multi-planar reconstructions and a physician-validated PDF report. Elucid also offers an FFR-CT capability. The company sells to health systems, cardiologists, radiologists and vascular specialists through a clinical sales motion, and its go-to-market runs on reimbursement (Medicare Administrative Contractor, United Healthcare and EviCore coverage) rather than self-service signup. Elucid publishes no public developer program, API reference, SDK or machine-readable specification; the product is delivered as an end-user clinical platform.
 
-- https://elucid.com/
-- https://elucid.com/about-elucid/
-- https://forgeglobal.com/elucid-bioimaging_stock/
+**Areas:** Company · Health · Medical Imaging · Artificial Intelligence · Cardiovascular · Radiology · Diagnostics · Medical Devices
+
+## Elucid Bioimaging on APIs.io
+
+Everything profiled for Elucid Bioimaging is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/elucid-bioimaging/](https://apis.io/providers/elucid-bioimaging/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Elucid Bioimaging Domain Security](https://apis.io/security/elucid-bioimaging/elucid-bioimaging-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Elucid Bioimaging Plans Pricing](https://apis.io/plans/elucid-bioimaging/elucid-bioimaging-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://elucid.com/)
+- [Blog](https://elucid.com/about-elucid/#news)
+- [Privacy policy](https://elucid.com/privacy-policy/)
+
+## API Evangelist rating
+
+**Kin Score 7.4** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 10.5 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 7.4** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/elucid-bioimaging/](https://apis.io/providers/elucid-bioimaging/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Elucid Bioimaging: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/elucid-bioimaging/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
